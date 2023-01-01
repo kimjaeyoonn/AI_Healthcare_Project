@@ -2,9 +2,10 @@
 
 Health Samples Repository
 ======================
-!!Forked from android/health-samples and referenced health-services/Exercise Sample
 
-This repository contains a set of individual Android Studio projects to help you get started writing Health-related apps on Android and Wear OS.
+This repository referenced the contents below from android/health-samples.
+
+health-samples contains a set of individual Android Studio projects to help you get started writing Health-related apps on Android and Wear OS.
 
 The repository is structured by API. Read below for a description of each
 
