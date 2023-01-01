@@ -1,0 +1,82 @@
+[
+    {
+        "merged": "com.example.exercise.app-merged_res-34:/drawable_ic_run.xml.flat",
+        "source": "com.example.exercise.app-main-35:/drawable/ic_run.xml"
+    },
+    {
+        "merged": "com.example.exercise.app-merged_res-34:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.example.exercise.app-main-35:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.exercise.app-merged_res-34:/drawable_ic_clock.xml.flat",
+        "source": "com.example.exercise.app-main-35:/drawable/ic_clock.xml"
+    },
+    {
+        "merged": "com.example.exercise.app-merged_res-34:/drawable_ic_calories_burned.xml.flat",
+        "source": "com.example.exercise.app-main-35:/drawable/ic_calories_burned.xml"
+    },
+    {
+        "merged": "com.example.exercise.app-merged_res-34:/layout_fragment_not_available.xml.flat",
+        "source": "com.example.exercise.app-main-35:/layout/fragment_not_available.xml"
+    },
+    {
+        "merged": "com.example.exercise.app-merged_res-34:/drawable_ic_not_available.xml.flat",
+        "source": "com.example.exercise.app-main-35:/drawable/ic_not_available.xml"
+    },
+    {
+        "merged": "com.example.exercise.app-merged_res-34:/layout_fragment_exercise.xml.flat",
+        "source": "com.example.exercise.app-main-35:/layout/fragment_exercise.xml"
+    },
+    {
+        "merged": "com.example.exercise.app-merged_res-34:/layout_login.xml.flat",
+        "source": "com.example.exercise.app-main-35:/layout/login.xml"
+    },
+    {
+        "merged": "com.example.exercise.app-merged_res-34:/layout_fragment_startup.xml.flat",
+        "source": "com.example.exercise.app-main-35:/layout/fragment_startup.xml"
+    },
+    {
+        "merged": "com.example.exercise.app-merged_res-34:/drawable_ic_lap.xml.flat",
+        "source": "com.example.exercise.app-main-35:/drawable/ic_lap.xml"
+    },
+    {
+        "merged": "com.example.exercise.app-merged_res-34:/layout_activity_main.xml.flat",
+        "source": "com.example.exercise.app-main-35:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.exercise.app-merged_res-34:/layout_fragment_prepare.xml.flat",
+        "source": "com.example.exercise.app-main-35:/layout/fragment_prepare.xml"
+    },
+    {
+        "merged": "com.example.exercise.app-merged_res-34:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.exercise.app-main-35:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.example.exercise.app-merged_res-34:/drawable_ic_check.xml.flat",
+        "source": "com.example.exercise.app-main-35:/drawable/ic_check.xml"
+    },
+    {
+        "merged": "com.example.exercise.app-merged_res-34:/mipmap_ic_launcher.xml.flat",
+        "source": "com.example.exercise.app-main-35:/mipmap/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.exercise.app-merged_res-34:/drawable_ic_heart_outline.xml.flat",
+        "source": "com.example.exercise.app-main-35:/drawable/ic_heart_outline.xml"
+    },
+    {
+        "merged": "com.example.exercise.app-merged_res-34:/navigation_nav_graph.xml.flat",
+        "source": "com.example.exercise.app-main-35:/navigation/nav_graph.xml"
+    },
+    {
+        "merged": "com.example.exercise.app-merged_res-34:/drawable_ic_cancel.xml.flat",
+        "source": "com.example.exercise.app-main-35:/drawable/ic_cancel.xml"
+    },
+    {
+        "merged": "com.example.exercise.app-merged_res-34:/drawable_ic_distance.xml.flat",
+        "source": "com.example.exercise.app-main-35:/drawable/ic_distance.xml"
+    },
+    {
+        "merged": "com.example.exercise.app-merged_res-34:/mipmap_ic_launcher_round.xml.flat",
+        "source": "com.example.exercise.app-main-35:/mipmap/ic_launcher_round.xml"
+    }
+]

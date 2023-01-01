@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "com.example.exercise.app-mergeReleaseResources-33:/layout/fragment_not_available.xml",
+        "source": "com.example.exercise.app-main-35:/layout/fragment_not_available.xml"
+    },
+    {
+        "merged": "com.example.exercise.app-mergeReleaseResources-33:/layout/fragment_startup.xml",
+        "source": "com.example.exercise.app-main-35:/layout/fragment_startup.xml"
+    },
+    {
+        "merged": "com.example.exercise.app-mergeReleaseResources-33:/layout/activity_main.xml",
+        "source": "com.example.exercise.app-main-35:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.exercise.app-mergeReleaseResources-33:/layout/fragment_exercise.xml",
+        "source": "com.example.exercise.app-main-35:/layout/fragment_exercise.xml"
+    },
+    {
+        "merged": "com.example.exercise.app-mergeReleaseResources-33:/layout/fragment_prepare.xml",
+        "source": "com.example.exercise.app-main-35:/layout/fragment_prepare.xml"
+    },
+    {
+        "merged": "com.example.exercise.app-mergeReleaseResources-33:/layout/login.xml",
+        "source": "com.example.exercise.app-main-35:/layout/login.xml"
+    }
+]

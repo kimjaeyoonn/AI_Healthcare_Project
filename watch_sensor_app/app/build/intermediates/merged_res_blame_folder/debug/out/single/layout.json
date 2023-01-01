@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "C:\\Users\\eourm\\.gradle\\daemon\\7.3.3\\com.example.exercise.app-mergeDebugResources-33:\\layout\\fragment_exercise.xml",
+        "source": "C:\\Users\\eourm\\.gradle\\daemon\\7.3.3\\com.example.exercise.app-main-36:\\layout\\fragment_exercise.xml"
+    },
+    {
+        "merged": "C:\\Users\\eourm\\.gradle\\daemon\\7.3.3\\com.example.exercise.app-mergeDebugResources-33:\\layout\\fragment_not_available.xml",
+        "source": "C:\\Users\\eourm\\.gradle\\daemon\\7.3.3\\com.example.exercise.app-main-36:\\layout\\fragment_not_available.xml"
+    },
+    {
+        "merged": "com.example.exercise.app-mergeDebugResources-33:/layout/fragment_exercise.xml",
+        "source": "com.example.exercise.app-main-36:/layout/fragment_exercise.xml"
+    },
+    {
+        "merged": "C:\\Users\\eourm\\.gradle\\daemon\\7.3.3\\com.example.exercise.app-mergeDebugResources-33:\\layout\\fragment_prepare.xml",
+        "source": "C:\\Users\\eourm\\.gradle\\daemon\\7.3.3\\com.example.exercise.app-main-36:\\layout\\fragment_prepare.xml"
+    },
+    {
+        "merged": "C:\\Users\\eourm\\.gradle\\daemon\\7.3.3\\com.example.exercise.app-mergeDebugResources-33:\\layout\\login.xml",
+        "source": "C:\\Users\\eourm\\.gradle\\daemon\\7.3.3\\com.example.exercise.app-main-36:\\layout\\login.xml"
+    },
+    {
+        "merged": "C:\\Users\\eourm\\.gradle\\daemon\\7.3.3\\com.example.exercise.app-mergeDebugResources-33:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\eourm\\.gradle\\daemon\\7.3.3\\com.example.exercise.app-main-36:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\eourm\\.gradle\\daemon\\7.3.3\\com.example.exercise.app-mergeDebugResources-33:\\layout\\fragment_startup.xml",
+        "source": "C:\\Users\\eourm\\.gradle\\daemon\\7.3.3\\com.example.exercise.app-main-36:\\layout\\fragment_startup.xml"
+    }
+]

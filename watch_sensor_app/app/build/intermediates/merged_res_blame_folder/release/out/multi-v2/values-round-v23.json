@@ -1,0 +1,43 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.example.exercise.app-mergeReleaseResources-32:/values-round-v23/values-round-v23.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\eourm\\.gradle\\caches\\transforms-3\\752ba0c069664754787eda78bb363e5c\\transformed\\wear-1.2.0\\res\\values-round-v23\\values-round-v23.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,118,204",
+                        "endColumns": "62,85,79",
+                        "endOffsets": "113,199,279"
+                    },
+                    "to": {
+                        "startLines": "2,7,8",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,314,400",
+                        "endColumns": "62,85,79",
+                        "endOffsets": "113,395,475"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\eourm\\Desktop\\study\\watch_sensor_app\\watch_sensor_app\\app\\src\\main\\res\\values-round\\dimens.xml",
+                    "from": {
+                        "startLines": "5,4,3,2",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "204,155,104,55",
+                        "endColumns": "46,48,50,48",
+                        "endOffsets": "246,199,150,99"
+                    },
+                    "to": {
+                        "startLines": "3,4,5,6",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "118,165,214,265",
+                        "endColumns": "46,48,50,48",
+                        "endOffsets": "160,209,260,309"
+                    }
+                }
+            ]
+        }
+    ]
+}

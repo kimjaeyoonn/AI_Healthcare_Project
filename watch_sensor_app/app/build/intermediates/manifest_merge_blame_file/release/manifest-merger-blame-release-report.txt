@@ -1,0 +1,334 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<!--
+3  ~ Copyright 2021 The Android Open Source Project
+4  ~
+5  ~ Licensed under the Apache License, Version 2.0 (the "License");
+6  ~ you may not use this file except in compliance with the License.
+7  ~ You may obtain a copy of the License at
+8  ~
+9  ~     https://www.apache.org/licenses/LICENSE-2.0
+10  ~
+11  ~ Unless required by applicable law or agreed to in writing, software
+12  ~ distributed under the License is distributed on an "AS IS" BASIS,
+13  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+14  ~ See the License for the specific language governing permissions and
+15  ~ limitations under the License.
+16-->
+17<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+18    package="com.example.exercise"
+19    android:versionCode="1"
+20    android:versionName="1.0" >
+21
+22    <uses-sdk
+23        android:minSdkVersion="30"
+23-->C:\Users\eourm\Desktop\study\watch_sensor_app\watch_sensor_app\app\src\main\AndroidManifest.xml
+24        android:targetSdkVersion="30" />
+24-->C:\Users\eourm\Desktop\study\watch_sensor_app\watch_sensor_app\app\src\main\AndroidManifest.xml
+25
+26    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+26-->C:\Users\eourm\Desktop\study\watch_sensor_app\watch_sensor_app\app\src\main\AndroidManifest.xml:21:5-76
+26-->C:\Users\eourm\Desktop\study\watch_sensor_app\watch_sensor_app\app\src\main\AndroidManifest.xml:21:22-74
+27
+28    <uses-feature android:name="android.hardware.type.watch" />
+28-->C:\Users\eourm\Desktop\study\watch_sensor_app\watch_sensor_app\app\src\main\AndroidManifest.xml:23:5-64
+28-->C:\Users\eourm\Desktop\study\watch_sensor_app\watch_sensor_app\app\src\main\AndroidManifest.xml:23:19-61
+29
+30    <uses-permission android:name="android.permission.INTERNET" />
+30-->C:\Users\eourm\Desktop\study\watch_sensor_app\watch_sensor_app\app\src\main\AndroidManifest.xml:25:5-66
+30-->C:\Users\eourm\Desktop\study\watch_sensor_app\watch_sensor_app\app\src\main\AndroidManifest.xml:25:22-64
+31    <!-- For receiving exercise metrics. -->
+32    <uses-permission android:name="android.permission.BODY_SENSORS" />
+32-->C:\Users\eourm\Desktop\study\watch_sensor_app\watch_sensor_app\app\src\main\AndroidManifest.xml:27:5-71
+32-->C:\Users\eourm\Desktop\study\watch_sensor_app\watch_sensor_app\app\src\main\AndroidManifest.xml:27:22-68
+33    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+33-->C:\Users\eourm\Desktop\study\watch_sensor_app\watch_sensor_app\app\src\main\AndroidManifest.xml:28:5-79
+33-->C:\Users\eourm\Desktop\study\watch_sensor_app\watch_sensor_app\app\src\main\AndroidManifest.xml:28:22-76
+34    <uses-permission android:name="android.permission.ACTIVITY_RECOGNITION" />
+34-->C:\Users\eourm\Desktop\study\watch_sensor_app\watch_sensor_app\app\src\main\AndroidManifest.xml:29:5-79
+34-->C:\Users\eourm\Desktop\study\watch_sensor_app\watch_sensor_app\app\src\main\AndroidManifest.xml:29:22-76
+35    <!-- For ambient mode. -->
+36    <uses-permission android:name="android.permission.WAKE_LOCK" />
+36-->C:\Users\eourm\Desktop\study\watch_sensor_app\watch_sensor_app\app\src\main\AndroidManifest.xml:31:5-68
+36-->C:\Users\eourm\Desktop\study\watch_sensor_app\watch_sensor_app\app\src\main\AndroidManifest.xml:31:22-65
+37    <!-- For showing an ongoing notification. -->
+38    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+38-->C:\Users\eourm\Desktop\study\watch_sensor_app\watch_sensor_app\app\src\main\AndroidManifest.xml:21:5-76
+38-->C:\Users\eourm\Desktop\study\watch_sensor_app\watch_sensor_app\app\src\main\AndroidManifest.xml:21:22-74
+39
+40    <!--
+41         When an app targets Android 11 (API level 30) or higher and queries for information about
+42         the other apps that are installed on a device, the system filters this information by
+43         default. Adding the query field allows Health Services to recognize the app.
+44         See https://developer.android.com/training/package-visibility.
+45    -->
+46    <queries>
+46-->C:\Users\eourm\Desktop\study\watch_sensor_app\watch_sensor_app\app\src\main\AndroidManifest.xml:40:5-42:15
+47        <package android:name="com.google.android.wearable.healthservices" />
+47-->C:\Users\eourm\Desktop\study\watch_sensor_app\watch_sensor_app\app\src\main\AndroidManifest.xml:41:9-78
+47-->C:\Users\eourm\Desktop\study\watch_sensor_app\watch_sensor_app\app\src\main\AndroidManifest.xml:41:18-75
+48    </queries>
+49
+50    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+50-->[androidx.work:work-runtime:2.3.4] C:\Users\eourm\.gradle\caches\transforms-3\ac320370934eff13aab97565c9d47e02\transformed\work-runtime-2.3.4\AndroidManifest.xml:26:5-79
+50-->[androidx.work:work-runtime:2.3.4] C:\Users\eourm\.gradle\caches\transforms-3\ac320370934eff13aab97565c9d47e02\transformed\work-runtime-2.3.4\AndroidManifest.xml:26:22-76
+51    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+51-->[androidx.work:work-runtime:2.3.4] C:\Users\eourm\.gradle\caches\transforms-3\ac320370934eff13aab97565c9d47e02\transformed\work-runtime-2.3.4\AndroidManifest.xml:27:5-81
+51-->[androidx.work:work-runtime:2.3.4] C:\Users\eourm\.gradle\caches\transforms-3\ac320370934eff13aab97565c9d47e02\transformed\work-runtime-2.3.4\AndroidManifest.xml:27:22-78
+52
+53    <application
+53-->C:\Users\eourm\Desktop\study\watch_sensor_app\watch_sensor_app\app\src\main\AndroidManifest.xml:44:5-84:19
+54        android:name="com.example.exercise.MainApplication"
+54-->C:\Users\eourm\Desktop\study\watch_sensor_app\watch_sensor_app\app\src\main\AndroidManifest.xml:46:9-60
+55        android:allowBackup="true"
+55-->C:\Users\eourm\Desktop\study\watch_sensor_app\watch_sensor_app\app\src\main\AndroidManifest.xml:47:9-35
+56        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+56-->[androidx.core:core:1.6.0] C:\Users\eourm\.gradle\caches\transforms-3\90c2baceb52043ea7a991e3c6fe56076\transformed\core-1.6.0\AndroidManifest.xml:24:18-86
+57        android:extractNativeLibs="false"
+58        android:icon="@mipmap/ic_launcher"
+58-->C:\Users\eourm\Desktop\study\watch_sensor_app\watch_sensor_app\app\src\main\AndroidManifest.xml:48:9-43
+59        android:label="@string/app_name"
+59-->C:\Users\eourm\Desktop\study\watch_sensor_app\watch_sensor_app\app\src\main\AndroidManifest.xml:49:9-41
+60        android:roundIcon="@mipmap/ic_launcher_round"
+60-->C:\Users\eourm\Desktop\study\watch_sensor_app\watch_sensor_app\app\src\main\AndroidManifest.xml:50:9-54
+61        android:supportsRtl="true"
+61-->C:\Users\eourm\Desktop\study\watch_sensor_app\watch_sensor_app\app\src\main\AndroidManifest.xml:51:9-35
+62        android:theme="@style/AppTheme"
+62-->C:\Users\eourm\Desktop\study\watch_sensor_app\watch_sensor_app\app\src\main\AndroidManifest.xml:52:9-40
+63        android:usesCleartextTraffic="true" >
+63-->C:\Users\eourm\Desktop\study\watch_sensor_app\watch_sensor_app\app\src\main\AndroidManifest.xml:45:9-44
+64        <uses-library
+64-->C:\Users\eourm\Desktop\study\watch_sensor_app\watch_sensor_app\app\src\main\AndroidManifest.xml:53:9-55:39
+65            android:name="com.google.android.wearable"
+65-->C:\Users\eourm\Desktop\study\watch_sensor_app\watch_sensor_app\app\src\main\AndroidManifest.xml:54:13-55
+66            android:required="true" />
+66-->C:\Users\eourm\Desktop\study\watch_sensor_app\watch_sensor_app\app\src\main\AndroidManifest.xml:55:13-36
+67
+68        <meta-data
+68-->C:\Users\eourm\Desktop\study\watch_sensor_app\watch_sensor_app\app\src\main\AndroidManifest.xml:57:9-59:36
+69            android:name="com.google.android.wearable.standalone"
+69-->C:\Users\eourm\Desktop\study\watch_sensor_app\watch_sensor_app\app\src\main\AndroidManifest.xml:58:13-66
+70            android:value="true" />
+70-->C:\Users\eourm\Desktop\study\watch_sensor_app\watch_sensor_app\app\src\main\AndroidManifest.xml:59:13-33
+71
+72        <activity
+72-->C:\Users\eourm\Desktop\study\watch_sensor_app\watch_sensor_app\app\src\main\AndroidManifest.xml:61:9-66:20
+73            android:name="com.example.exercise.MainActivity"
+73-->C:\Users\eourm\Desktop\study\watch_sensor_app\watch_sensor_app\app\src\main\AndroidManifest.xml:62:13-61
+74            android:exported="true"
+74-->C:\Users\eourm\Desktop\study\watch_sensor_app\watch_sensor_app\app\src\main\AndroidManifest.xml:63:13-36
+75            android:label="@string/app_name" >
+75-->C:\Users\eourm\Desktop\study\watch_sensor_app\watch_sensor_app\app\src\main\AndroidManifest.xml:64:13-45
+76        </activity>
+77        <activity
+77-->C:\Users\eourm\Desktop\study\watch_sensor_app\watch_sensor_app\app\src\main\AndroidManifest.xml:67:9-76:20
+78            android:name="com.example.exercise.login"
+78-->C:\Users\eourm\Desktop\study\watch_sensor_app\watch_sensor_app\app\src\main\AndroidManifest.xml:68:13-54
+79            android:exported="true"
+79-->C:\Users\eourm\Desktop\study\watch_sensor_app\watch_sensor_app\app\src\main\AndroidManifest.xml:69:13-36
+80            android:label="@string/app_name" >
+80-->C:\Users\eourm\Desktop\study\watch_sensor_app\watch_sensor_app\app\src\main\AndroidManifest.xml:70:13-45
+81            <intent-filter>
+81-->C:\Users\eourm\Desktop\study\watch_sensor_app\watch_sensor_app\app\src\main\AndroidManifest.xml:72:13-75:29
+82                <action android:name="android.intent.action.MAIN" />
+82-->C:\Users\eourm\Desktop\study\watch_sensor_app\watch_sensor_app\app\src\main\AndroidManifest.xml:73:17-69
+82-->C:\Users\eourm\Desktop\study\watch_sensor_app\watch_sensor_app\app\src\main\AndroidManifest.xml:73:25-66
+83
+84                <category android:name="android.intent.category.LAUNCHER" />
+84-->C:\Users\eourm\Desktop\study\watch_sensor_app\watch_sensor_app\app\src\main\AndroidManifest.xml:74:17-77
+84-->C:\Users\eourm\Desktop\study\watch_sensor_app\watch_sensor_app\app\src\main\AndroidManifest.xml:74:27-74
+85            </intent-filter>
+86        </activity>
+87
+88        <!-- Add foreground service location permission for exercise tracking -->
+89        <service
+89-->C:\Users\eourm\Desktop\study\watch_sensor_app\watch_sensor_app\app\src\main\AndroidManifest.xml:79:9-82:40
+90            android:name="com.example.exercise.ExerciseService"
+90-->C:\Users\eourm\Desktop\study\watch_sensor_app\watch_sensor_app\app\src\main\AndroidManifest.xml:80:13-44
+91            android:exported="false"
+91-->C:\Users\eourm\Desktop\study\watch_sensor_app\watch_sensor_app\app\src\main\AndroidManifest.xml:82:13-37
+92            android:foregroundServiceType="location" />
+92-->C:\Users\eourm\Desktop\study\watch_sensor_app\watch_sensor_app\app\src\main\AndroidManifest.xml:81:13-53
+93
+94        <provider
+94-->[androidx.work:work-runtime:2.3.4] C:\Users\eourm\.gradle\caches\transforms-3\ac320370934eff13aab97565c9d47e02\transformed\work-runtime-2.3.4\AndroidManifest.xml:31:9-37:35
+95            android:name="androidx.work.impl.WorkManagerInitializer"
+95-->[androidx.work:work-runtime:2.3.4] C:\Users\eourm\.gradle\caches\transforms-3\ac320370934eff13aab97565c9d47e02\transformed\work-runtime-2.3.4\AndroidManifest.xml:32:13-69
+96            android:authorities="com.example.exercise.workmanager-init"
+96-->[androidx.work:work-runtime:2.3.4] C:\Users\eourm\.gradle\caches\transforms-3\ac320370934eff13aab97565c9d47e02\transformed\work-runtime-2.3.4\AndroidManifest.xml:33:13-68
+97            android:directBootAware="false"
+97-->[androidx.work:work-runtime:2.3.4] C:\Users\eourm\.gradle\caches\transforms-3\ac320370934eff13aab97565c9d47e02\transformed\work-runtime-2.3.4\AndroidManifest.xml:34:13-44
+98            android:exported="false"
+98-->[androidx.work:work-runtime:2.3.4] C:\Users\eourm\.gradle\caches\transforms-3\ac320370934eff13aab97565c9d47e02\transformed\work-runtime-2.3.4\AndroidManifest.xml:35:13-37
+99            android:multiprocess="true" />
+99-->[androidx.work:work-runtime:2.3.4] C:\Users\eourm\.gradle\caches\transforms-3\ac320370934eff13aab97565c9d47e02\transformed\work-runtime-2.3.4\AndroidManifest.xml:36:13-40
+100
+101        <service
+101-->[androidx.work:work-runtime:2.3.4] C:\Users\eourm\.gradle\caches\transforms-3\ac320370934eff13aab97565c9d47e02\transformed\work-runtime-2.3.4\AndroidManifest.xml:39:9-44:35
+102            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+102-->[androidx.work:work-runtime:2.3.4] C:\Users\eourm\.gradle\caches\transforms-3\ac320370934eff13aab97565c9d47e02\transformed\work-runtime-2.3.4\AndroidManifest.xml:40:13-88
+103            android:directBootAware="false"
+103-->[androidx.work:work-runtime:2.3.4] C:\Users\eourm\.gradle\caches\transforms-3\ac320370934eff13aab97565c9d47e02\transformed\work-runtime-2.3.4\AndroidManifest.xml:41:13-44
+104            android:enabled="@bool/enable_system_alarm_service_default"
+104-->[androidx.work:work-runtime:2.3.4] C:\Users\eourm\.gradle\caches\transforms-3\ac320370934eff13aab97565c9d47e02\transformed\work-runtime-2.3.4\AndroidManifest.xml:42:13-72
+105            android:exported="false" />
+105-->[androidx.work:work-runtime:2.3.4] C:\Users\eourm\.gradle\caches\transforms-3\ac320370934eff13aab97565c9d47e02\transformed\work-runtime-2.3.4\AndroidManifest.xml:43:13-37
+106        <service
+106-->[androidx.work:work-runtime:2.3.4] C:\Users\eourm\.gradle\caches\transforms-3\ac320370934eff13aab97565c9d47e02\transformed\work-runtime-2.3.4\AndroidManifest.xml:45:9-51:35
+107            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+107-->[androidx.work:work-runtime:2.3.4] C:\Users\eourm\.gradle\caches\transforms-3\ac320370934eff13aab97565c9d47e02\transformed\work-runtime-2.3.4\AndroidManifest.xml:46:13-84
+108            android:directBootAware="false"
+108-->[androidx.work:work-runtime:2.3.4] C:\Users\eourm\.gradle\caches\transforms-3\ac320370934eff13aab97565c9d47e02\transformed\work-runtime-2.3.4\AndroidManifest.xml:47:13-44
+109            android:enabled="@bool/enable_system_job_service_default"
+109-->[androidx.work:work-runtime:2.3.4] C:\Users\eourm\.gradle\caches\transforms-3\ac320370934eff13aab97565c9d47e02\transformed\work-runtime-2.3.4\AndroidManifest.xml:48:13-70
+110            android:exported="true"
+110-->[androidx.work:work-runtime:2.3.4] C:\Users\eourm\.gradle\caches\transforms-3\ac320370934eff13aab97565c9d47e02\transformed\work-runtime-2.3.4\AndroidManifest.xml:49:13-36
+111            android:permission="android.permission.BIND_JOB_SERVICE" />
+111-->[androidx.work:work-runtime:2.3.4] C:\Users\eourm\.gradle\caches\transforms-3\ac320370934eff13aab97565c9d47e02\transformed\work-runtime-2.3.4\AndroidManifest.xml:50:13-69
+112        <service
+112-->[androidx.work:work-runtime:2.3.4] C:\Users\eourm\.gradle\caches\transforms-3\ac320370934eff13aab97565c9d47e02\transformed\work-runtime-2.3.4\AndroidManifest.xml:52:9-57:35
+113            android:name="androidx.work.impl.foreground.SystemForegroundService"
+113-->[androidx.work:work-runtime:2.3.4] C:\Users\eourm\.gradle\caches\transforms-3\ac320370934eff13aab97565c9d47e02\transformed\work-runtime-2.3.4\AndroidManifest.xml:53:13-81
+114            android:directBootAware="false"
+114-->[androidx.work:work-runtime:2.3.4] C:\Users\eourm\.gradle\caches\transforms-3\ac320370934eff13aab97565c9d47e02\transformed\work-runtime-2.3.4\AndroidManifest.xml:54:13-44
+115            android:enabled="@bool/enable_system_foreground_service_default"
+115-->[androidx.work:work-runtime:2.3.4] C:\Users\eourm\.gradle\caches\transforms-3\ac320370934eff13aab97565c9d47e02\transformed\work-runtime-2.3.4\AndroidManifest.xml:55:13-77
+116            android:exported="false" />
+116-->[androidx.work:work-runtime:2.3.4] C:\Users\eourm\.gradle\caches\transforms-3\ac320370934eff13aab97565c9d47e02\transformed\work-runtime-2.3.4\AndroidManifest.xml:56:13-37
+117
+118        <receiver
+118-->[androidx.work:work-runtime:2.3.4] C:\Users\eourm\.gradle\caches\transforms-3\ac320370934eff13aab97565c9d47e02\transformed\work-runtime-2.3.4\AndroidManifest.xml:59:9-64:35
+119            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+119-->[androidx.work:work-runtime:2.3.4] C:\Users\eourm\.gradle\caches\transforms-3\ac320370934eff13aab97565c9d47e02\transformed\work-runtime-2.3.4\AndroidManifest.xml:60:13-88
+120            android:directBootAware="false"
+120-->[androidx.work:work-runtime:2.3.4] C:\Users\eourm\.gradle\caches\transforms-3\ac320370934eff13aab97565c9d47e02\transformed\work-runtime-2.3.4\AndroidManifest.xml:61:13-44
+121            android:enabled="true"
+121-->[androidx.work:work-runtime:2.3.4] C:\Users\eourm\.gradle\caches\transforms-3\ac320370934eff13aab97565c9d47e02\transformed\work-runtime-2.3.4\AndroidManifest.xml:62:13-35
+122            android:exported="false" />
+122-->[androidx.work:work-runtime:2.3.4] C:\Users\eourm\.gradle\caches\transforms-3\ac320370934eff13aab97565c9d47e02\transformed\work-runtime-2.3.4\AndroidManifest.xml:63:13-37
+123        <receiver
+123-->[androidx.work:work-runtime:2.3.4] C:\Users\eourm\.gradle\caches\transforms-3\ac320370934eff13aab97565c9d47e02\transformed\work-runtime-2.3.4\AndroidManifest.xml:65:9-75:20
+124            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+124-->[androidx.work:work-runtime:2.3.4] C:\Users\eourm\.gradle\caches\transforms-3\ac320370934eff13aab97565c9d47e02\transformed\work-runtime-2.3.4\AndroidManifest.xml:66:13-106
+125            android:directBootAware="false"
+125-->[androidx.work:work-runtime:2.3.4] C:\Users\eourm\.gradle\caches\transforms-3\ac320370934eff13aab97565c9d47e02\transformed\work-runtime-2.3.4\AndroidManifest.xml:67:13-44
+126            android:enabled="false"
+126-->[androidx.work:work-runtime:2.3.4] C:\Users\eourm\.gradle\caches\transforms-3\ac320370934eff13aab97565c9d47e02\transformed\work-runtime-2.3.4\AndroidManifest.xml:68:13-36
+127            android:exported="false" >
+127-->[androidx.work:work-runtime:2.3.4] C:\Users\eourm\.gradle\caches\transforms-3\ac320370934eff13aab97565c9d47e02\transformed\work-runtime-2.3.4\AndroidManifest.xml:69:13-37
+128            <intent-filter>
+128-->[androidx.work:work-runtime:2.3.4] C:\Users\eourm\.gradle\caches\transforms-3\ac320370934eff13aab97565c9d47e02\transformed\work-runtime-2.3.4\AndroidManifest.xml:71:13-74:29
+129                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+129-->[androidx.work:work-runtime:2.3.4] C:\Users\eourm\.gradle\caches\transforms-3\ac320370934eff13aab97565c9d47e02\transformed\work-runtime-2.3.4\AndroidManifest.xml:72:17-87
+129-->[androidx.work:work-runtime:2.3.4] C:\Users\eourm\.gradle\caches\transforms-3\ac320370934eff13aab97565c9d47e02\transformed\work-runtime-2.3.4\AndroidManifest.xml:72:25-84
+130                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+130-->[androidx.work:work-runtime:2.3.4] C:\Users\eourm\.gradle\caches\transforms-3\ac320370934eff13aab97565c9d47e02\transformed\work-runtime-2.3.4\AndroidManifest.xml:73:17-90
+130-->[androidx.work:work-runtime:2.3.4] C:\Users\eourm\.gradle\caches\transforms-3\ac320370934eff13aab97565c9d47e02\transformed\work-runtime-2.3.4\AndroidManifest.xml:73:25-87
+131            </intent-filter>
+132        </receiver>
+133        <receiver
+133-->[androidx.work:work-runtime:2.3.4] C:\Users\eourm\.gradle\caches\transforms-3\ac320370934eff13aab97565c9d47e02\transformed\work-runtime-2.3.4\AndroidManifest.xml:76:9-86:20
+134            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+134-->[androidx.work:work-runtime:2.3.4] C:\Users\eourm\.gradle\caches\transforms-3\ac320370934eff13aab97565c9d47e02\transformed\work-runtime-2.3.4\AndroidManifest.xml:77:13-104
+135            android:directBootAware="false"
+135-->[androidx.work:work-runtime:2.3.4] C:\Users\eourm\.gradle\caches\transforms-3\ac320370934eff13aab97565c9d47e02\transformed\work-runtime-2.3.4\AndroidManifest.xml:78:13-44
+136            android:enabled="false"
+136-->[androidx.work:work-runtime:2.3.4] C:\Users\eourm\.gradle\caches\transforms-3\ac320370934eff13aab97565c9d47e02\transformed\work-runtime-2.3.4\AndroidManifest.xml:79:13-36
+137            android:exported="false" >
+137-->[androidx.work:work-runtime:2.3.4] C:\Users\eourm\.gradle\caches\transforms-3\ac320370934eff13aab97565c9d47e02\transformed\work-runtime-2.3.4\AndroidManifest.xml:80:13-37
+138            <intent-filter>
+138-->[androidx.work:work-runtime:2.3.4] C:\Users\eourm\.gradle\caches\transforms-3\ac320370934eff13aab97565c9d47e02\transformed\work-runtime-2.3.4\AndroidManifest.xml:82:13-85:29
+139                <action android:name="android.intent.action.BATTERY_OKAY" />
+139-->[androidx.work:work-runtime:2.3.4] C:\Users\eourm\.gradle\caches\transforms-3\ac320370934eff13aab97565c9d47e02\transformed\work-runtime-2.3.4\AndroidManifest.xml:83:17-77
+139-->[androidx.work:work-runtime:2.3.4] C:\Users\eourm\.gradle\caches\transforms-3\ac320370934eff13aab97565c9d47e02\transformed\work-runtime-2.3.4\AndroidManifest.xml:83:25-74
+140                <action android:name="android.intent.action.BATTERY_LOW" />
+140-->[androidx.work:work-runtime:2.3.4] C:\Users\eourm\.gradle\caches\transforms-3\ac320370934eff13aab97565c9d47e02\transformed\work-runtime-2.3.4\AndroidManifest.xml:84:17-76
+140-->[androidx.work:work-runtime:2.3.4] C:\Users\eourm\.gradle\caches\transforms-3\ac320370934eff13aab97565c9d47e02\transformed\work-runtime-2.3.4\AndroidManifest.xml:84:25-73
+141            </intent-filter>
+142        </receiver>
+143        <receiver
+143-->[androidx.work:work-runtime:2.3.4] C:\Users\eourm\.gradle\caches\transforms-3\ac320370934eff13aab97565c9d47e02\transformed\work-runtime-2.3.4\AndroidManifest.xml:87:9-97:20
+144            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+144-->[androidx.work:work-runtime:2.3.4] C:\Users\eourm\.gradle\caches\transforms-3\ac320370934eff13aab97565c9d47e02\transformed\work-runtime-2.3.4\AndroidManifest.xml:88:13-104
+145            android:directBootAware="false"
+145-->[androidx.work:work-runtime:2.3.4] C:\Users\eourm\.gradle\caches\transforms-3\ac320370934eff13aab97565c9d47e02\transformed\work-runtime-2.3.4\AndroidManifest.xml:89:13-44
+146            android:enabled="false"
+146-->[androidx.work:work-runtime:2.3.4] C:\Users\eourm\.gradle\caches\transforms-3\ac320370934eff13aab97565c9d47e02\transformed\work-runtime-2.3.4\AndroidManifest.xml:90:13-36
+147            android:exported="false" >
+147-->[androidx.work:work-runtime:2.3.4] C:\Users\eourm\.gradle\caches\transforms-3\ac320370934eff13aab97565c9d47e02\transformed\work-runtime-2.3.4\AndroidManifest.xml:91:13-37
+148            <intent-filter>
+148-->[androidx.work:work-runtime:2.3.4] C:\Users\eourm\.gradle\caches\transforms-3\ac320370934eff13aab97565c9d47e02\transformed\work-runtime-2.3.4\AndroidManifest.xml:93:13-96:29
+149                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+149-->[androidx.work:work-runtime:2.3.4] C:\Users\eourm\.gradle\caches\transforms-3\ac320370934eff13aab97565c9d47e02\transformed\work-runtime-2.3.4\AndroidManifest.xml:94:17-83
+149-->[androidx.work:work-runtime:2.3.4] C:\Users\eourm\.gradle\caches\transforms-3\ac320370934eff13aab97565c9d47e02\transformed\work-runtime-2.3.4\AndroidManifest.xml:94:25-80
+150                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+150-->[androidx.work:work-runtime:2.3.4] C:\Users\eourm\.gradle\caches\transforms-3\ac320370934eff13aab97565c9d47e02\transformed\work-runtime-2.3.4\AndroidManifest.xml:95:17-82
+150-->[androidx.work:work-runtime:2.3.4] C:\Users\eourm\.gradle\caches\transforms-3\ac320370934eff13aab97565c9d47e02\transformed\work-runtime-2.3.4\AndroidManifest.xml:95:25-79
+151            </intent-filter>
+152        </receiver>
+153        <receiver
+153-->[androidx.work:work-runtime:2.3.4] C:\Users\eourm\.gradle\caches\transforms-3\ac320370934eff13aab97565c9d47e02\transformed\work-runtime-2.3.4\AndroidManifest.xml:98:9-107:20
+154            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+154-->[androidx.work:work-runtime:2.3.4] C:\Users\eourm\.gradle\caches\transforms-3\ac320370934eff13aab97565c9d47e02\transformed\work-runtime-2.3.4\AndroidManifest.xml:99:13-103
+155            android:directBootAware="false"
+155-->[androidx.work:work-runtime:2.3.4] C:\Users\eourm\.gradle\caches\transforms-3\ac320370934eff13aab97565c9d47e02\transformed\work-runtime-2.3.4\AndroidManifest.xml:100:13-44
+156            android:enabled="false"
+156-->[androidx.work:work-runtime:2.3.4] C:\Users\eourm\.gradle\caches\transforms-3\ac320370934eff13aab97565c9d47e02\transformed\work-runtime-2.3.4\AndroidManifest.xml:101:13-36
+157            android:exported="false" >
+157-->[androidx.work:work-runtime:2.3.4] C:\Users\eourm\.gradle\caches\transforms-3\ac320370934eff13aab97565c9d47e02\transformed\work-runtime-2.3.4\AndroidManifest.xml:102:13-37
+158            <intent-filter>
+158-->[androidx.work:work-runtime:2.3.4] C:\Users\eourm\.gradle\caches\transforms-3\ac320370934eff13aab97565c9d47e02\transformed\work-runtime-2.3.4\AndroidManifest.xml:104:13-106:29
+159                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+159-->[androidx.work:work-runtime:2.3.4] C:\Users\eourm\.gradle\caches\transforms-3\ac320370934eff13aab97565c9d47e02\transformed\work-runtime-2.3.4\AndroidManifest.xml:105:17-79
+159-->[androidx.work:work-runtime:2.3.4] C:\Users\eourm\.gradle\caches\transforms-3\ac320370934eff13aab97565c9d47e02\transformed\work-runtime-2.3.4\AndroidManifest.xml:105:25-76
+160            </intent-filter>
+161        </receiver>
+162        <receiver
+162-->[androidx.work:work-runtime:2.3.4] C:\Users\eourm\.gradle\caches\transforms-3\ac320370934eff13aab97565c9d47e02\transformed\work-runtime-2.3.4\AndroidManifest.xml:108:9-119:20
+163            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+163-->[androidx.work:work-runtime:2.3.4] C:\Users\eourm\.gradle\caches\transforms-3\ac320370934eff13aab97565c9d47e02\transformed\work-runtime-2.3.4\AndroidManifest.xml:109:13-88
+164            android:directBootAware="false"
+164-->[androidx.work:work-runtime:2.3.4] C:\Users\eourm\.gradle\caches\transforms-3\ac320370934eff13aab97565c9d47e02\transformed\work-runtime-2.3.4\AndroidManifest.xml:110:13-44
+165            android:enabled="false"
+165-->[androidx.work:work-runtime:2.3.4] C:\Users\eourm\.gradle\caches\transforms-3\ac320370934eff13aab97565c9d47e02\transformed\work-runtime-2.3.4\AndroidManifest.xml:111:13-36
+166            android:exported="false" >
+166-->[androidx.work:work-runtime:2.3.4] C:\Users\eourm\.gradle\caches\transforms-3\ac320370934eff13aab97565c9d47e02\transformed\work-runtime-2.3.4\AndroidManifest.xml:112:13-37
+167            <intent-filter>
+167-->[androidx.work:work-runtime:2.3.4] C:\Users\eourm\.gradle\caches\transforms-3\ac320370934eff13aab97565c9d47e02\transformed\work-runtime-2.3.4\AndroidManifest.xml:114:13-118:29
+168                <action android:name="android.intent.action.BOOT_COMPLETED" />
+168-->[androidx.work:work-runtime:2.3.4] C:\Users\eourm\.gradle\caches\transforms-3\ac320370934eff13aab97565c9d47e02\transformed\work-runtime-2.3.4\AndroidManifest.xml:115:17-79
+168-->[androidx.work:work-runtime:2.3.4] C:\Users\eourm\.gradle\caches\transforms-3\ac320370934eff13aab97565c9d47e02\transformed\work-runtime-2.3.4\AndroidManifest.xml:115:25-76
+169                <action android:name="android.intent.action.TIME_SET" />
+169-->[androidx.work:work-runtime:2.3.4] C:\Users\eourm\.gradle\caches\transforms-3\ac320370934eff13aab97565c9d47e02\transformed\work-runtime-2.3.4\AndroidManifest.xml:116:17-73
+169-->[androidx.work:work-runtime:2.3.4] C:\Users\eourm\.gradle\caches\transforms-3\ac320370934eff13aab97565c9d47e02\transformed\work-runtime-2.3.4\AndroidManifest.xml:116:25-70
+170                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+170-->[androidx.work:work-runtime:2.3.4] C:\Users\eourm\.gradle\caches\transforms-3\ac320370934eff13aab97565c9d47e02\transformed\work-runtime-2.3.4\AndroidManifest.xml:117:17-81
+170-->[androidx.work:work-runtime:2.3.4] C:\Users\eourm\.gradle\caches\transforms-3\ac320370934eff13aab97565c9d47e02\transformed\work-runtime-2.3.4\AndroidManifest.xml:117:25-78
+171            </intent-filter>
+172        </receiver>
+173        <receiver
+173-->[androidx.work:work-runtime:2.3.4] C:\Users\eourm\.gradle\caches\transforms-3\ac320370934eff13aab97565c9d47e02\transformed\work-runtime-2.3.4\AndroidManifest.xml:120:9-129:20
+174            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+174-->[androidx.work:work-runtime:2.3.4] C:\Users\eourm\.gradle\caches\transforms-3\ac320370934eff13aab97565c9d47e02\transformed\work-runtime-2.3.4\AndroidManifest.xml:121:13-99
+175            android:directBootAware="false"
+175-->[androidx.work:work-runtime:2.3.4] C:\Users\eourm\.gradle\caches\transforms-3\ac320370934eff13aab97565c9d47e02\transformed\work-runtime-2.3.4\AndroidManifest.xml:122:13-44
+176            android:enabled="@bool/enable_system_alarm_service_default"
+176-->[androidx.work:work-runtime:2.3.4] C:\Users\eourm\.gradle\caches\transforms-3\ac320370934eff13aab97565c9d47e02\transformed\work-runtime-2.3.4\AndroidManifest.xml:123:13-72
+177            android:exported="false" >
+177-->[androidx.work:work-runtime:2.3.4] C:\Users\eourm\.gradle\caches\transforms-3\ac320370934eff13aab97565c9d47e02\transformed\work-runtime-2.3.4\AndroidManifest.xml:124:13-37
+178            <intent-filter>
+178-->[androidx.work:work-runtime:2.3.4] C:\Users\eourm\.gradle\caches\transforms-3\ac320370934eff13aab97565c9d47e02\transformed\work-runtime-2.3.4\AndroidManifest.xml:126:13-128:29
+179                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+179-->[androidx.work:work-runtime:2.3.4] C:\Users\eourm\.gradle\caches\transforms-3\ac320370934eff13aab97565c9d47e02\transformed\work-runtime-2.3.4\AndroidManifest.xml:127:17-98
+179-->[androidx.work:work-runtime:2.3.4] C:\Users\eourm\.gradle\caches\transforms-3\ac320370934eff13aab97565c9d47e02\transformed\work-runtime-2.3.4\AndroidManifest.xml:127:25-95
+180            </intent-filter>
+181        </receiver>
+182
+183        <service
+183-->[androidx.room:room-runtime:2.2.3] C:\Users\eourm\.gradle\caches\transforms-3\4420aaae07899e41fac0176aad0f9dc7\transformed\room-runtime-2.2.3\AndroidManifest.xml:25:9-27:40
+184            android:name="androidx.room.MultiInstanceInvalidationService"
+184-->[androidx.room:room-runtime:2.2.3] C:\Users\eourm\.gradle\caches\transforms-3\4420aaae07899e41fac0176aad0f9dc7\transformed\room-runtime-2.2.3\AndroidManifest.xml:26:13-74
+185            android:exported="false" />
+185-->[androidx.room:room-runtime:2.2.3] C:\Users\eourm\.gradle\caches\transforms-3\4420aaae07899e41fac0176aad0f9dc7\transformed\room-runtime-2.2.3\AndroidManifest.xml:27:13-37
+186    </application>
+187
+188</manifest>

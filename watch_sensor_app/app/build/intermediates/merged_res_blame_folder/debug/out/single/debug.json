@@ -1,0 +1,86 @@
+[
+    {
+        "merged": "C:\\Users\\eourm\\.gradle\\daemon\\7.3.3\\com.example.exercise.app-merged_res-34:\\drawable_ic_run.xml.flat",
+        "source": "C:\\Users\\eourm\\.gradle\\daemon\\7.3.3\\com.example.exercise.app-main-36:\\drawable\\ic_run.xml"
+    },
+    {
+        "merged": "C:\\Users\\eourm\\.gradle\\daemon\\7.3.3\\com.example.exercise.app-merged_res-34:\\mipmap_ic_launcher.xml.flat",
+        "source": "C:\\Users\\eourm\\.gradle\\daemon\\7.3.3\\com.example.exercise.app-main-36:\\mipmap\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\eourm\\.gradle\\daemon\\7.3.3\\com.example.exercise.app-merged_res-34:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\eourm\\.gradle\\daemon\\7.3.3\\com.example.exercise.app-main-36:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\eourm\\.gradle\\daemon\\7.3.3\\com.example.exercise.app-merged_res-34:\\drawable_ic_check.xml.flat",
+        "source": "C:\\Users\\eourm\\.gradle\\daemon\\7.3.3\\com.example.exercise.app-main-36:\\drawable\\ic_check.xml"
+    },
+    {
+        "merged": "C:\\Users\\eourm\\.gradle\\daemon\\7.3.3\\com.example.exercise.app-merged_res-34:\\layout_login.xml.flat",
+        "source": "C:\\Users\\eourm\\.gradle\\daemon\\7.3.3\\com.example.exercise.app-main-36:\\layout\\login.xml"
+    },
+    {
+        "merged": "C:\\Users\\eourm\\.gradle\\daemon\\7.3.3\\com.example.exercise.app-merged_res-34:\\drawable_ic_distance.xml.flat",
+        "source": "C:\\Users\\eourm\\.gradle\\daemon\\7.3.3\\com.example.exercise.app-main-36:\\drawable\\ic_distance.xml"
+    },
+    {
+        "merged": "C:\\Users\\eourm\\.gradle\\daemon\\7.3.3\\com.example.exercise.app-merged_res-34:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\eourm\\.gradle\\daemon\\7.3.3\\com.example.exercise.app-main-36:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\eourm\\.gradle\\daemon\\7.3.3\\com.example.exercise.app-merged_res-34:\\layout_fragment_not_available.xml.flat",
+        "source": "C:\\Users\\eourm\\.gradle\\daemon\\7.3.3\\com.example.exercise.app-main-36:\\layout\\fragment_not_available.xml"
+    },
+    {
+        "merged": "com.example.exercise.app-merged_res-34:/layout_fragment_exercise.xml.flat",
+        "source": "com.example.exercise.app-main-36:/layout/fragment_exercise.xml"
+    },
+    {
+        "merged": "C:\\Users\\eourm\\.gradle\\daemon\\7.3.3\\com.example.exercise.app-merged_res-34:\\drawable_ic_cancel.xml.flat",
+        "source": "C:\\Users\\eourm\\.gradle\\daemon\\7.3.3\\com.example.exercise.app-main-36:\\drawable\\ic_cancel.xml"
+    },
+    {
+        "merged": "C:\\Users\\eourm\\.gradle\\daemon\\7.3.3\\com.example.exercise.app-merged_res-34:\\drawable_ic_not_available.xml.flat",
+        "source": "C:\\Users\\eourm\\.gradle\\daemon\\7.3.3\\com.example.exercise.app-main-36:\\drawable\\ic_not_available.xml"
+    },
+    {
+        "merged": "C:\\Users\\eourm\\.gradle\\daemon\\7.3.3\\com.example.exercise.app-merged_res-34:\\drawable_ic_clock.xml.flat",
+        "source": "C:\\Users\\eourm\\.gradle\\daemon\\7.3.3\\com.example.exercise.app-main-36:\\drawable\\ic_clock.xml"
+    },
+    {
+        "merged": "C:\\Users\\eourm\\.gradle\\daemon\\7.3.3\\com.example.exercise.app-merged_res-34:\\mipmap_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\eourm\\.gradle\\daemon\\7.3.3\\com.example.exercise.app-main-36:\\mipmap\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\eourm\\.gradle\\daemon\\7.3.3\\com.example.exercise.app-merged_res-34:\\drawable_ic_calories_burned.xml.flat",
+        "source": "C:\\Users\\eourm\\.gradle\\daemon\\7.3.3\\com.example.exercise.app-main-36:\\drawable\\ic_calories_burned.xml"
+    },
+    {
+        "merged": "C:\\Users\\eourm\\.gradle\\daemon\\7.3.3\\com.example.exercise.app-merged_res-34:\\layout_fragment_exercise.xml.flat",
+        "source": "C:\\Users\\eourm\\.gradle\\daemon\\7.3.3\\com.example.exercise.app-main-36:\\layout\\fragment_exercise.xml"
+    },
+    {
+        "merged": "C:\\Users\\eourm\\.gradle\\daemon\\7.3.3\\com.example.exercise.app-merged_res-34:\\drawable_ic_heart_outline.xml.flat",
+        "source": "C:\\Users\\eourm\\.gradle\\daemon\\7.3.3\\com.example.exercise.app-main-36:\\drawable\\ic_heart_outline.xml"
+    },
+    {
+        "merged": "C:\\Users\\eourm\\.gradle\\daemon\\7.3.3\\com.example.exercise.app-merged_res-34:\\layout_fragment_startup.xml.flat",
+        "source": "C:\\Users\\eourm\\.gradle\\daemon\\7.3.3\\com.example.exercise.app-main-36:\\layout\\fragment_startup.xml"
+    },
+    {
+        "merged": "C:\\Users\\eourm\\.gradle\\daemon\\7.3.3\\com.example.exercise.app-merged_res-34:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\eourm\\.gradle\\daemon\\7.3.3\\com.example.exercise.app-main-36:\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\eourm\\.gradle\\daemon\\7.3.3\\com.example.exercise.app-merged_res-34:\\drawable_ic_lap.xml.flat",
+        "source": "C:\\Users\\eourm\\.gradle\\daemon\\7.3.3\\com.example.exercise.app-main-36:\\drawable\\ic_lap.xml"
+    },
+    {
+        "merged": "C:\\Users\\eourm\\.gradle\\daemon\\7.3.3\\com.example.exercise.app-merged_res-34:\\layout_fragment_prepare.xml.flat",
+        "source": "C:\\Users\\eourm\\.gradle\\daemon\\7.3.3\\com.example.exercise.app-main-36:\\layout\\fragment_prepare.xml"
+    },
+    {
+        "merged": "C:\\Users\\eourm\\.gradle\\daemon\\7.3.3\\com.example.exercise.app-merged_res-34:\\navigation_nav_graph.xml.flat",
+        "source": "C:\\Users\\eourm\\.gradle\\daemon\\7.3.3\\com.example.exercise.app-main-36:\\navigation\\nav_graph.xml"
+    }
+]
